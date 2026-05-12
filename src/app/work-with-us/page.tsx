@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import GallerySlider from "@/components/GallerySlider";
 
 const fadeUp = (delay = 0) => ({
     initial: { opacity: 0, y: 32 },
