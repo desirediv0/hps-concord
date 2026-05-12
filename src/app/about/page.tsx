@@ -64,7 +64,7 @@ export default function AboutPage() {
             {/* ── HERO ── */}
             <section className="relative min-h-[50vh] flex items-end pb-16 overflow-hidden">
                 <div className="absolute inset-0">
-                    <Image src="/images/earth.jpg" alt="" fill priority className="object-cover object-center opacity-30" />
+                    <Image src="/images/aircraft.jpg" alt="" fill priority className="object-cover object-center opacity-30" />
                     <div className="absolute inset-0 bg-gradient-to-b from-[#071540]/80 via-[#071540]/70 to-[#071540]" />
                     <div className="absolute inset-0 bg-gradient-to-r from-[#071540]/90 to-transparent" />
                 </div>
@@ -153,11 +153,11 @@ export default function AboutPage() {
                         <motion.div {...fadeIn(0.2)} className="relative h-[460px]">
                             <div className="absolute left-0 top-0 w-[65%] h-[72%] rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)] shadow-[0_20px_60px_rgba(13,36,97,0.15)]">
-                                <Image src="/images/astronaut.jpg" alt="HPS Concord Team" fill className="object-cover" />
+                                <Image src="/images/helicopter.jpg" alt="HPS Concord Team" fill className="object-cover" />
                             </div>
                             <div className="absolute right-0 bottom-0 w-[58%] h-[60%] rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)] shadow-[0_20px_60px_rgba(13,36,97,0.18)]">
-                                <Image src="/images/spacecraft-small.jpg" alt="Aircraft" fill className="object-cover" />
+                                <Image src="/images/private-aircraft.jpg" alt="Aircraft" fill className="object-cover" />
                             </div>
                             <div className="absolute top-0 right-[36%] w-8 h-8 border-t-2 border-r-2 border-[#c8102e]/30" />
                             <div className="absolute bottom-[36%] left-[60%] w-8 h-8 border-b-2 border-l-2 border-[#0d2461]/25" />
@@ -268,7 +268,7 @@ export default function AboutPage() {
                             <div className="absolute inset-0 rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)]
                               shadow-[0_24px_80px_rgba(13,36,97,0.15)]">
-                                <Image src="/images/space-shuttle.jpg" alt="Aircraft operations" fill className="object-cover" />
+                                <Image src="/images/why-choose.jpg" alt="Aircraft operations" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-r from-[#0d2461]/30 to-transparent" />
                             </div>
                             <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-[#c8102e]/40" />

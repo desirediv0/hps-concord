@@ -70,7 +70,7 @@ export default function HomePage() {
       {/* ══════════ 1. HERO ══════════ */}
       <section ref={heroRef} className="relative min-h-[95vh] flex items-center overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0 z-0">
-          <Image src="/images/space-shuttle.jpg" alt="Aviation" fill priority className="object-cover object-center" />
+          <Image src="/images/aircraft.jpg" alt="Aviation" fill priority className="object-cover object-center" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#071540]/97 via-[#071540]/85 to-[#071540]/30" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#071540] via-transparent to-[#071540]/20" />
         </motion.div>
@@ -237,11 +237,11 @@ export default function HomePage() {
             <motion.div {...fadeIn(0.2)} className="relative h-[480px] lg:h-[540px]">
               <div className="absolute left-0 top-0 w-[67%] h-[74%] rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)] shadow-[0_24px_72px_rgba(13,36,97,0.18)]">
-                <Image src="/images/earth.jpg" alt="Aviation" fill className="object-cover" />
+                <Image src="/images/private-aircraft.jpg" alt="Aviation" fill className="object-cover" />
               </div>
               <div className="absolute right-0 bottom-0 w-[56%] h-[57%] rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)] shadow-[0_24px_72px_rgba(13,36,97,0.22)]">
-                <Image src="/images/astronaut.jpg" alt="Aviation team" fill className="object-cover" />
+                <Image src="/images/helicopter.jpg" alt="Aviation team" fill className="object-cover" />
               </div>
               <div className="absolute top-[71%] left-[63%] w-14 h-14 border-b-2 border-r-2 border-[#0d2461]/20" />
               <div className="absolute -top-1 left-[65%] w-10 h-10 border-t-2 border-l-2 border-[#c8102e]/35" />
@@ -358,7 +358,7 @@ export default function HomePage() {
               <div className="absolute inset-0 rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)]
                               shadow-[0_24px_72px_rgba(13,36,97,0.18)]">
-                <Image src="/images/spacecraft-small.jpg" alt="Aircraft" fill className="object-cover" />
+                <Image src="/images/why-choose.jpg" alt="Aircraft" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#0d2461]/35 to-transparent" />
               </div>
               <div className="absolute -top-4 -left-4 w-12 h-12 border-t-2 border-l-2 border-[#c8102e]/50" />
@@ -425,13 +425,13 @@ export default function HomePage() {
 
 
       {/* ══════════ 7. CTA BANNER ══════════ */}
-      <section className="relative py-28 overflow-hidden">
+      <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/space-shuttle.jpg" alt="" fill className="object-cover opacity-20" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#071540]/98 via-[#071540]/92 to-[#071540]/98" />
+          <Image src="/images/bg-aircraft.jpg" alt="" fill className="object-cover opacity-20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#071540]/40 via-[#071540]/40 to-[#071540]/40" />
         </div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,rgba(200,16,46,0.14),transparent_65%)]" />
-        <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#c8102e]/60 to-transparent" />
+        <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#c8102e]/10 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#c8102e]/30 to-transparent" />
 
         <div className="relative max-w-4xl mx-auto px-6 text-center">

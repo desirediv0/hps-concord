@@ -156,7 +156,7 @@ export default function WorkWithUsPage() {
                             <div className="absolute inset-0 rounded-sm overflow-hidden
                               border border-[rgba(13,36,97,0.10)]
                               shadow-[0_24px_80px_rgba(13,36,97,0.18)]">
-                                <Image src="/images/space-shuttle.jpg" alt="" fill className="object-cover" />
+                                <Image src="/images/why-choose.jpg" alt="" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-gradient-to-r from-[#071540]/40 to-transparent" />
                             </div>
                             <div className="absolute -top-3 -left-3 w-10 h-10 border-t-2 border-l-2 border-[#c8102e]/40" />
@@ -288,7 +288,7 @@ export default function WorkWithUsPage() {
             </section>
 
             {/* ── BRAND SLIDER ── */}
-            <GallerySlider showLabel speed={32} />
+            {/* <GallerySlider showLabel speed={32} /> */}
         </>
     );
 }
