@@ -58,9 +58,20 @@ export default function ContactPage() {
         e.preventDefault();
         if (!form.name || !form.email || !form.message) return;
         setLoading(true);
-        await new Promise((r) => setTimeout(r, 1400));
-        setLoading(false);
-        setSubmitted(true);
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(form),
+            });
+            if (!res.ok) throw new Error('Failed to send message');
+            setSubmitted(true);
+        } catch (error) {
+            console.error(error);
+            alert("Something went wrong. Please try again later.");
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
